@@ -72,8 +72,7 @@ client.on("message", msg =>{
       if (msg.content === ("pe!commands")){
         msg.reply ("Message Commands: pe!pos (gives positivity), pe!penguin (sends a penguin pic ps not working), pe!poll (creates a poll), pe!doismell (do you smell?) "
         )}
-});//==================================================
+});
 
 
-
-client.login("wYgTGQKOEDP3Xr8Uy1211FTkYiMqa7l-");
+client.login(process.env.token);
